@@ -3,5 +3,7 @@ language: node_js
 node_js:
   - "iojs"
 script: 
+  - node -v
+  - npm -v
   - npm install
   - node app.js
