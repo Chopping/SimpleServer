@@ -5,6 +5,5 @@ node_js:
 
 install:
   -npm install
-  -npm install forever 
 script: 
   node app.js
