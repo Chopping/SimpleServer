@@ -2,8 +2,6 @@ sudo: required
 language: node_js
 node_js:
   - "iojs"
-
-install:
-  -npm install
 script: 
-  node app.js
+  - npm install
+  - node app.js
