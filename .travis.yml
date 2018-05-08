@@ -6,4 +6,3 @@ script:
   - node -v
   - npm -v
   - npm install
-  - node app.js
