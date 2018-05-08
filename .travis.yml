@@ -2,10 +2,6 @@ sudo: required
 language: node_js
 node_js:
   - "node"
-  - 8
-install:
-  - npm update
-  - npm install -g npm
 script: 
   - node -v
   - npm -v
