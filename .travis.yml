@@ -1,0 +1,12 @@
+sudo: required
+language: node_js
+node_js:
+  - "iojs"
+
+install:
+  -npm install
+  -npm install forever -g
+  
+script: 
+  forever -w app.js  
+  forever start -l forever.log -o out.log -e err.log app.js
